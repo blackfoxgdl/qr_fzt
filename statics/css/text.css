@@ -1,0 +1,14 @@
+/**
+ * Css's stylesheet for fonts and all kind
+ * of styles used for decorate all the letters
+ * in the system or platform
+ **/
+
+@font-face {
+    font-family: "Eurostile";
+    src: "http://www.divestis.com/qr_fzt/statics/Eurostile";
+}
+
+.font-type {
+    font-family: 'Eurostile';
+}

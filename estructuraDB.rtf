@@ -1,0 +1,72 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 	PROYECTO DE LA DATABASE PARA QR\
+\
+** USUARIOS ** (YA)\
+\
+-- id int not null primary key auto-increment\
+-- nombre varchar(500) not null\
+-- apellidos varchar (500) not null\
+-- email varchar (400) not null\
+-- fecha_nac varchar (100) not null\
+-- genero varchar(100) not null\
+-- facebookId varchar (400) not null\
+-- creaci\'f3n varchar(100) not null\
+\
+** REDES SOCIALES ** (YA)\
+\
+-- id not null primary key auto-increment\
+-- tokenFacebook varchar (400) not null\
+-- tokenOauth varchar (400) not null\
+-- tokenOauthSecret varchar(400) not null\
+-- userId int not null ---> llave foranea de usuarios\
+\
+** CLIENTES ** (YA)\
+\
+-- id not null primary key auto-increment\
+-- nombreCliente varchar (600) not null\
+-- direccionCliente varchar(600) not null\
+-- email varchar(400) not null\
+-- password varchar(400) not null\
+-- clave varchar(200) not null\
+-- creaci\'f3n varchar(100) not null\
+-- fecha_termino varchar (100) not null\
+\
+** Mensajes ** (YA)\
+\
+-- id not null primary key auto-increment\
+-- mensaje_facebook varchar (500) not null\
+-- mensaje_twitter varchar(140) null\
+-- mensaje_main varchar (400) not null\
+-- empresaId int not null\
+-- campa\'f1aId int not null\
+-- codigoMsj varchar(200) not null\
+\
+** CAMPA\'d1AS **\
+\
+-- id not null primary key auto-increment\
+-- nombreCampa\'f1a varchar (600) not null\
+-- claveCampa\'f1a int not null\
+-- empresaCampa\'f1aId int not null ---> llave de la empresa\
+-- creaci\'f3n varchar(200) not null\
+\
+/***** DATOS DE BASE DE DATOS ****/\
+\
+\pard\pardeftab720\sa240
+
+\f1 \cf0 Added user \'93divestis_qrFzt\'94 with password \'93proyectoQrFzt123\'94.\
+\pard\pardeftab720\sa280
+
+\b\fs36 \cf0 Step 3: Add User to the Database\
+\pard\pardeftab720\sa240
+
+\b0\fs24 \cf0 User: 
+\b divestis_qrFzt
+\b0  \uc0\u8232 Database: 
+\b divestis_qr_fzt
+\b0 \
+}
